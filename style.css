@@ -61,3 +61,20 @@ tr:nth-child(3){
     background-color: rosybrown;
     
 }
+
+@keyframes box{
+ from{
+background-image: url(поставьте.jpg) ;
+background-size: cover;
+ }
+50%{
+    background-image: url(пятёрочку.jpg) ;
+    background-size: cover;
+
+}
+to{
+    background-image: url(котек.jpg);
+    background-size: cover;
+}
+}
+

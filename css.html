@@ -3,9 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Learning</title>    
+    <title>CSS Learning  </title>    
     <link rel="stylesheet" href="style.css">
     <style>
+       div.recktangle{
+            width: 500px ;
+            height : 300px ;        
+
+             
+             animation: box 9s ease-in-out infinite;                        
+        }
+
        .important
        {
            background-color: blueviolet;
@@ -20,7 +28,7 @@
     <a href="">Link1</a>
     <br>    
     <a href="">Link1</a>
-
+    
     <div id="First" class="important" > Блочный элемент номер 1 </div>
     <br> 
     <div id="Second"> Блочный элемент номер 2 </div>
@@ -56,15 +64,17 @@
     </div>
 <br>
 
+
     <table style="position: relative; top: 300px; " >
         <tr> <td>&nbsp;</td> <td>2017</td> <td>2018</td> <td>2019</td></tr>
         <tr> <td>ИТех</td> <td>93</td> <td>97</td> <td>98</td></tr>
         <tr><td>КСх</td> <td>91</td> <td>98</td> <td>97</td></tr>
         <tr><td>СПО</td> <td>96</td> <td>94</td> <td>97</td></tr>
     </table>
-
+    
     <br>
     <br>
     <br>
+    <div style="position: relative; top: 300px; left: 300px" class="recktangle"></div> 
 </body>
 </html>
