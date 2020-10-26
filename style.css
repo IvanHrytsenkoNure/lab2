@@ -1,0 +1,63 @@
+a{
+background-color: blue;
+
+}
+
+.casual{
+
+    background-color: silver;
+}
+
+div#First
+{
+    background-color: yellow;
+}
+
+div#Second{
+    font-size: 135%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.absolute{
+    width: 200px;
+    height: 50px;
+position: absolute;
+top: 260px;
+left: 209px;
+}
+
+div.relative{
+    width: 200px;
+    height: 50px;
+position: relative;
+top: 0px;
+left: 200px;
+}
+
+table{
+border-spacing: 0px;
+
+}
+
+td{
+    border-bottom: 1px solid red;
+    width: 100px;
+}
+td:nth-child(1){
+border-left: 1px solid red;
+}
+td:nth-child(4){
+    border-right: 1px solid red;
+
+}
+
+tr:nth-child(1){
+    background-color: red;
+    color: white;
+    font-size: 150%;
+}
+
+tr:nth-child(3){
+    background-color: rosybrown;
+    
+}
