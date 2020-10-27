@@ -3,9 +3,11 @@ background-color: blue;
 
 }
 
+
+
 .casual{
 
-    background-color: silver;
+    background-color: #ff0000 rgb(123, green, blue);
 }
 
 div#First
@@ -75,6 +77,19 @@ background-size: cover;
 to{
     background-image: url(котек.jpg);
     background-size: cover;
+}
+}
+@keyframes box1
+{
+
+from{
+
+    background-color : red;
+}
+to{
+    background-color : yellow;
+}
+
 }
 }
 
